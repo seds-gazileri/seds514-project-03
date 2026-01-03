@@ -18,6 +18,14 @@ seds514-project-03/
 └── README.md               # This file
 ```
 
+## Workflow (End-to-End)
+1. Define factors, levels, and constraints in `docs/design_spec.md`.
+2. Generate pairwise cases and metrics: `python3 src/generate_pairwise.py`.
+3. Run pairwise tests: `pytest tests/test_pairwise.py -v`.
+4. Generate baseline cases + coverage metrics: `python3 src/evaluate_baseline.py`.
+5. Run baseline tests: `pytest tests/test_baseline.py -v`.
+6. Compare coverage and results in `docs/evaluation_report.md`.
+
 ## Installation
 ```bash
 # Create virtual environment (if not exists)
@@ -46,6 +54,15 @@ pytest tests/test_pairwise.py -v
 
 # Run only baseline tests
 pytest tests/test_baseline.py -v
+```
+
+## Generate Test Cases
+```bash
+# Generate pairwise cases + metrics
+python3 src/generate_pairwise.py
+
+# Generate baseline cases + coverage metrics
+python3 src/evaluate_baseline.py
 ```
 
 ## Project Deliverables

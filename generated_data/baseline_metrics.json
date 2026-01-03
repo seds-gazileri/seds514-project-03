@@ -1,0 +1,11 @@
+{
+  "baseline_count": 16,
+  "baseline_seed": 51403,
+  "theoretical_combinations": 2916,
+  "valid_combinations": 1040,
+  "pairwise_total_pairs": 199,
+  "pairwise_covered_pairs": 182,
+  "pairwise_coverage_ratio": 0.9146,
+  "baseline_covered_pairs": 151,
+  "baseline_coverage_ratio": 0.7588
+}
