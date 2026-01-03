@@ -1,0 +1,17 @@
+input_type,headers,tablefmt,showindex,missingval,data_mix,size
+list_of_lists,explicit_list,plain,always,default,all_strings,small
+list_of_dicts,keys,github,never,question,includes_none,small
+dict_of_columns,firstrow,grid,custom_iterable,na,includes_none,medium
+dict_of_columns,keys,psql,always,na,includes_none,wide_text
+list_of_dicts,explicit_list,psql,custom_iterable,question,includes_none,wide_text
+list_of_lists,firstrow,github,never,default,ints_floats,wide_text
+list_of_dicts,keys,grid,always,default,ints_floats,medium
+dict_of_columns,explicit_list,github,never,na,includes_none,medium
+list_of_lists,firstrow,psql,custom_iterable,question,includes_none,medium
+dict_of_columns,firstrow,plain,custom_iterable,question,includes_none,medium
+dict_of_columns,firstrow,psql,always,default,all_strings,medium
+list_of_dicts,keys,plain,custom_iterable,na,includes_none,wide_text
+list_of_lists,explicit_list,grid,never,na,includes_none,small
+dict_of_columns,firstrow,psql,never,na,includes_none,medium
+dict_of_columns,firstrow,grid,custom_iterable,question,includes_none,wide_text
+dict_of_columns,firstrow,github,custom_iterable,default,ints_floats,medium

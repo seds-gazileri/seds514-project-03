@@ -100,7 +100,24 @@ The dimensions and content characteristics of the table.
 
 ---
 
-## 3. Constraints
+## 3. Pairwise Model (7 Factors)
+
+This model captures the 7 factors and their levels in a compact, machine-readable format.
+
+```
+model:
+  input_type: [list_of_lists, list_of_dicts, dict_of_columns]
+  headers: [explicit_list, firstrow, keys]
+  tablefmt: [plain, github, grid, psql]
+  showindex: [always, never, custom_iterable]
+  missingval: [default, question, na]
+  data_mix: [all_strings, ints_floats, includes_none]
+  size: [small, medium, wide_text]
+```
+
+---
+
+## 4. Constraints
 
 The following constraints must be enforced during test generation to avoid invalid or meaningless test combinations.
 
@@ -422,7 +439,7 @@ def test_dict_of_columns_with_firstrow_negative():
 
 ---
 
-## 4. Constraint Summary (PICT Format)
+## 5. Constraint Summary (PICT Format)
 
 For use with Microsoft PICT or similar tools:
 
@@ -446,7 +463,7 @@ IF [headers] = "firstrow" THEN [size] <> "small";
 
 ---
 
-## 5. Negative Test Cases
+## 6. Negative Test Cases
 
 The following combinations are expected to raise exceptions or produce error conditions:
 
@@ -459,7 +476,7 @@ These will be tested separately to verify proper error handling.
 
 ---
 
-## 6. Test Oracles
+## 7. Test Oracles
 
 For each generated test case, we will assert at least two of the following:
 

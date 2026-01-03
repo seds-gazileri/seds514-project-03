@@ -1,0 +1,146 @@
+[
+  {
+    "input_type": "list_of_lists",
+    "headers": "explicit_list",
+    "tablefmt": "plain",
+    "showindex": "always",
+    "missingval": "default",
+    "data_mix": "all_strings",
+    "size": "small"
+  },
+  {
+    "input_type": "list_of_dicts",
+    "headers": "keys",
+    "tablefmt": "github",
+    "showindex": "never",
+    "missingval": "question",
+    "data_mix": "includes_none",
+    "size": "small"
+  },
+  {
+    "input_type": "dict_of_columns",
+    "headers": "firstrow",
+    "tablefmt": "grid",
+    "showindex": "custom_iterable",
+    "missingval": "na",
+    "data_mix": "includes_none",
+    "size": "medium"
+  },
+  {
+    "input_type": "dict_of_columns",
+    "headers": "keys",
+    "tablefmt": "psql",
+    "showindex": "always",
+    "missingval": "na",
+    "data_mix": "includes_none",
+    "size": "wide_text"
+  },
+  {
+    "input_type": "list_of_dicts",
+    "headers": "explicit_list",
+    "tablefmt": "psql",
+    "showindex": "custom_iterable",
+    "missingval": "question",
+    "data_mix": "includes_none",
+    "size": "wide_text"
+  },
+  {
+    "input_type": "list_of_lists",
+    "headers": "firstrow",
+    "tablefmt": "github",
+    "showindex": "never",
+    "missingval": "default",
+    "data_mix": "ints_floats",
+    "size": "wide_text"
+  },
+  {
+    "input_type": "list_of_dicts",
+    "headers": "keys",
+    "tablefmt": "grid",
+    "showindex": "always",
+    "missingval": "default",
+    "data_mix": "ints_floats",
+    "size": "medium"
+  },
+  {
+    "input_type": "dict_of_columns",
+    "headers": "explicit_list",
+    "tablefmt": "github",
+    "showindex": "never",
+    "missingval": "na",
+    "data_mix": "includes_none",
+    "size": "medium"
+  },
+  {
+    "input_type": "list_of_lists",
+    "headers": "firstrow",
+    "tablefmt": "psql",
+    "showindex": "custom_iterable",
+    "missingval": "question",
+    "data_mix": "includes_none",
+    "size": "medium"
+  },
+  {
+    "input_type": "dict_of_columns",
+    "headers": "firstrow",
+    "tablefmt": "plain",
+    "showindex": "custom_iterable",
+    "missingval": "question",
+    "data_mix": "includes_none",
+    "size": "medium"
+  },
+  {
+    "input_type": "dict_of_columns",
+    "headers": "firstrow",
+    "tablefmt": "psql",
+    "showindex": "always",
+    "missingval": "default",
+    "data_mix": "all_strings",
+    "size": "medium"
+  },
+  {
+    "input_type": "list_of_dicts",
+    "headers": "keys",
+    "tablefmt": "plain",
+    "showindex": "custom_iterable",
+    "missingval": "na",
+    "data_mix": "includes_none",
+    "size": "wide_text"
+  },
+  {
+    "input_type": "list_of_lists",
+    "headers": "explicit_list",
+    "tablefmt": "grid",
+    "showindex": "never",
+    "missingval": "na",
+    "data_mix": "includes_none",
+    "size": "small"
+  },
+  {
+    "input_type": "dict_of_columns",
+    "headers": "firstrow",
+    "tablefmt": "psql",
+    "showindex": "never",
+    "missingval": "na",
+    "data_mix": "includes_none",
+    "size": "medium"
+  },
+  {
+    "input_type": "dict_of_columns",
+    "headers": "firstrow",
+    "tablefmt": "grid",
+    "showindex": "custom_iterable",
+    "missingval": "question",
+    "data_mix": "includes_none",
+    "size": "wide_text"
+  },
+  {
+    "input_type": "dict_of_columns",
+    "headers": "firstrow",
+    "tablefmt": "github",
+    "showindex": "custom_iterable",
+    "missingval": "default",
+    "data_mix": "ints_floats",
+    "size": "medium"
+  }
+]
