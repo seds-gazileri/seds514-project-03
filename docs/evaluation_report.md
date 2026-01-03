@@ -18,3 +18,4 @@ Coverage is computed over all valid 2-way factor pairs derived from the full, co
 ## Notes
 - The baseline uses random sampling without replacement to match the same test budget.
 - Pairwise coverage is higher than the baseline, as expected for 2-way interaction testing.
+- Test run log evidence: `docs/pytest_run.txt`

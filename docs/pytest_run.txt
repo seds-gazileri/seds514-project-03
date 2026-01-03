@@ -1,0 +1,46 @@
+(venv) cankoc@192 seds514-project-03 % python3 -m pytest tests -v
+
+======================== test session starts ========================
+platform darwin -- Python 3.9.6, pytest-8.4.2, pluggy-1.6.0 -- /Users/cankoc/Desktop/masters/SEDS514-Testing/project-3/venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/cankoc/Desktop/masters/SEDS514-Testing/project-3/seds514-project-03
+configfile: pytest.ini
+plugins: cov-7.0.0
+collected 34 items                                                  
+
+tests/test_baseline.py::test_baseline_cases[input_type=dict_of_columns|headers=firstrow|tablefmt=grid|showindex=never|missingval=default|data_mix=all_strings|size=medium] PASSED [  2%]
+tests/test_baseline.py::test_baseline_cases[input_type=list_of_lists|headers=firstrow|tablefmt=plain|showindex=custom_iterable|missingval=default|data_mix=all_strings|size=medium] PASSED [  5%]
+tests/test_baseline.py::test_baseline_cases[input_type=list_of_dicts|headers=keys|tablefmt=psql|showindex=custom_iterable|missingval=na|data_mix=includes_none|size=medium] PASSED [  8%]
+tests/test_baseline.py::test_baseline_cases[input_type=dict_of_columns|headers=keys|tablefmt=github|showindex=custom_iterable|missingval=default|data_mix=ints_floats|size=wide_text] PASSED [ 11%]
+tests/test_baseline.py::test_baseline_cases[input_type=list_of_dicts|headers=keys|tablefmt=github|showindex=custom_iterable|missingval=default|data_mix=includes_none|size=wide_text] PASSED [ 14%]
+tests/test_baseline.py::test_baseline_cases[input_type=dict_of_columns|headers=firstrow|tablefmt=github|showindex=never|missingval=default|data_mix=includes_none|size=wide_text] PASSED [ 17%]
+tests/test_baseline.py::test_baseline_cases[input_type=list_of_dicts|headers=explicit_list|tablefmt=psql|showindex=never|missingval=default|data_mix=all_strings|size=wide_text] PASSED [ 20%]
+tests/test_baseline.py::test_baseline_cases[input_type=dict_of_columns|headers=explicit_list|tablefmt=psql|showindex=custom_iterable|missingval=question|data_mix=includes_none|size=medium] PASSED [ 23%]
+tests/test_baseline.py::test_baseline_cases[input_type=list_of_lists|headers=firstrow|tablefmt=github|showindex=always|missingval=na|data_mix=includes_none|size=medium] PASSED [ 26%]
+tests/test_baseline.py::test_baseline_cases[input_type=list_of_dicts|headers=explicit_list|tablefmt=github|showindex=never|missingval=default|data_mix=all_strings|size=medium] PASSED [ 29%]
+tests/test_baseline.py::test_baseline_cases[input_type=dict_of_columns|headers=firstrow|tablefmt=grid|showindex=always|missingval=default|data_mix=all_strings|size=medium] PASSED [ 32%]
+tests/test_baseline.py::test_baseline_cases[input_type=dict_of_columns|headers=explicit_list|tablefmt=plain|showindex=custom_iterable|missingval=question|data_mix=includes_none|size=wide_text] PASSED [ 35%]
+tests/test_baseline.py::test_baseline_cases[input_type=list_of_dicts|headers=keys|tablefmt=psql|showindex=custom_iterable|missingval=default|data_mix=ints_floats|size=medium] PASSED [ 38%]
+tests/test_baseline.py::test_baseline_cases[input_type=dict_of_columns|headers=firstrow|tablefmt=github|showindex=custom_iterable|missingval=default|data_mix=includes_none|size=wide_text] PASSED [ 41%]
+tests/test_baseline.py::test_baseline_cases[input_type=list_of_dicts|headers=explicit_list|tablefmt=grid|showindex=always|missingval=default|data_mix=includes_none|size=small] PASSED [ 44%]
+tests/test_baseline.py::test_baseline_cases[input_type=list_of_dicts|headers=explicit_list|tablefmt=plain|showindex=never|missingval=default|data_mix=includes_none|size=medium] PASSED [ 47%]
+tests/test_negative.py::test_list_of_lists_with_keys_invalid_headers PASSED [ 50%]
+tests/test_negative.py::test_dict_of_columns_with_firstrow_invalid_headers PASSED [ 52%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=list_of_lists|headers=explicit_list|tablefmt=plain|showindex=always|missingval=default|data_mix=all_strings|size=small] PASSED [ 55%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=list_of_dicts|headers=keys|tablefmt=github|showindex=never|missingval=question|data_mix=includes_none|size=small] PASSED [ 58%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=dict_of_columns|headers=firstrow|tablefmt=grid|showindex=custom_iterable|missingval=na|data_mix=includes_none|size=medium] PASSED [ 61%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=dict_of_columns|headers=keys|tablefmt=psql|showindex=always|missingval=na|data_mix=includes_none|size=wide_text] PASSED [ 64%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=list_of_dicts|headers=explicit_list|tablefmt=psql|showindex=custom_iterable|missingval=question|data_mix=includes_none|size=wide_text] PASSED [ 67%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=list_of_lists|headers=firstrow|tablefmt=github|showindex=never|missingval=default|data_mix=ints_floats|size=wide_text] PASSED [ 70%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=list_of_dicts|headers=keys|tablefmt=grid|showindex=always|missingval=default|data_mix=ints_floats|size=medium] PASSED [ 73%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=dict_of_columns|headers=explicit_list|tablefmt=github|showindex=never|missingval=na|data_mix=includes_none|size=medium] PASSED [ 76%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=list_of_lists|headers=firstrow|tablefmt=psql|showindex=custom_iterable|missingval=question|data_mix=includes_none|size=medium] PASSED [ 79%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=dict_of_columns|headers=firstrow|tablefmt=plain|showindex=custom_iterable|missingval=question|data_mix=includes_none|size=medium] PASSED [ 82%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=dict_of_columns|headers=firstrow|tablefmt=psql|showindex=always|missingval=default|data_mix=all_strings|size=medium] PASSED [ 85%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=list_of_dicts|headers=keys|tablefmt=plain|showindex=custom_iterable|missingval=na|data_mix=includes_none|size=wide_text] PASSED [ 88%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=list_of_lists|headers=explicit_list|tablefmt=grid|showindex=never|missingval=na|data_mix=includes_none|size=small] PASSED [ 91%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=dict_of_columns|headers=firstrow|tablefmt=psql|showindex=never|missingval=na|data_mix=includes_none|size=medium] PASSED [ 94%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=dict_of_columns|headers=firstrow|tablefmt=grid|showindex=custom_iterable|missingval=question|data_mix=includes_none|size=wide_text] PASSED [ 97%]
+tests/test_pairwise.py::test_pairwise_cases[input_type=dict_of_columns|headers=firstrow|tablefmt=github|showindex=custom_iterable|missingval=default|data_mix=ints_floats|size=medium] PASSED [100%]
+
+======================== 34 passed in 0.05s =========================
